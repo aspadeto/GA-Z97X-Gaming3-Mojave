@@ -1,0 +1,119 @@
+48:746  0:895  Found BIOS RSDP at f0000
+48:746  0:000  Printing ACPI tables from RSDP f0000 ...
+48:746  0:000   f0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+48:746  0:000    (Xsdt: bbde1080, Rsdt: bbde1028)
+48:746  0:000    bbde1080: 'XSDT', 'A M I', Rev: 1, Len: 132
+48:746  0:000    bbde1028: 'RSDT', 'A M I', Rev: 1, Len: 84
+48:746  0:000    Tables in Xsdt: 12
+48:746  0:000    0. bbdf1e18: 'FACP', 'A M I', Rev: 5, Len: 268
+48:746  0:000        (Dsdt: BBDE11A0, Facs: BBE1B080, XDsdt: bbde11a0, XFacs: 0)
+48:746  0:000        bbde11a0: 'DSDT', 'A M I', Rev: 2, Len: 68728
+48:746  0:000        bbe1b080: 'FACS', Ver: 2, Len: 64
+48:746  0:000    1. bbdf1f28: 'APIC', 'A M I', Rev: 3, Len: 114
+48:746  0:000    2. bbdf1fa0: 'FPDT', 'A M I', Rev: 1, Len: 68
+48:746  0:000    3. bbdf1fe8: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+48:746  0:000    4. bbdf2bd8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+48:746  0:000    5. bbdf3118: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+48:746  0:000    6. bbdf3c90: 'SSDT', 'LakeTiny', Rev: 1, Len: 455
+48:746  0:000    7. bbdf3e58: 'MCFG', 'A M I', Rev: 1, Len: 60
+48:746  0:000    8. bbdf3e98: 'HPET', 'A M I', Rev: 1, Len: 56
+48:746  0:000    9. bbdf3ed0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+48:746  0:000    10. bbdf4240: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+48:746  0:000    11. bbdf9da0: 'DMAR', 'BDW', Rev: 1, Len: 184
+48:746  0:000    Tables in Rsdt: 12
+48:746  0:000    0. bbde1118: 'FACP', 'A M I', Rev: 2, Len: 132
+48:746  0:000        (Dsdt: BBDE11A0, Facs: BBE1B040)
+48:746  0:000        bbde11a0: 'DSDT', 'A M I', Rev: 2, Len: 68728
+48:747  0:000        bbe1b040: 'FACS', Ver: 0, Len: 64
+48:747  0:000    1. bbdf1f28: 'APIC', 'A M I', Rev: 3, Len: 114
+48:747  0:000    2. bbdf1fa0: 'FPDT', 'A M I', Rev: 1, Len: 68
+48:747  0:000    3. bbdf1fe8: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+48:747  0:000    4. bbdf2bd8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+48:747  0:000    5. bbdf3118: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+48:747  0:000    6. bbdf3c90: 'SSDT', 'LakeTiny', Rev: 1, Len: 455
+48:747  0:000    7. bbdf3e58: 'MCFG', 'A M I', Rev: 1, Len: 60
+48:747  0:000    8. bbdf3e98: 'HPET', 'A M I', Rev: 1, Len: 56
+48:747  0:000    9. bbdf3ed0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+48:747  0:000    10. bbdf4240: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+48:747  0:000    11. bbdf9da0: 'DMAR', 'BDW', Rev: 1, Len: 184
+48:747  0:000  Found UEFI Acpi 2.0 RSDP at bbde1000
+48:747  0:000  Saving ACPI tables from RSDP bbde1000 to ACPI\origin ...
+48:747  0:000   bbde1000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+48:752  0:004    (Xsdt: bbde1080, Rsdt: bbde1028)
+48:752  0:000    bbde1080: 'XSDT', 'A M I', Rev: 1, Len: 132 -> XSDT.aml
+48:757  0:004    bbde1028: 'RSDT', 'A M I', Rev: 1, Len: 84 -> RSDT.aml
+48:761  0:004    Tables in Xsdt: 12
+48:761  0:000    0. bbdf1e18: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+48:766  0:004        (Dsdt: BBDE11A0, Facs: BBE1B080, XDsdt: bbde11a0, XFacs: 0)
+48:766  0:000        bbde11a0: 'DSDT', 'A M I', Rev: 2, Len: 68728 -> DSDT.aml
+48:774  0:008        bbe1b080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+48:779  0:004    1. bbdf1f28: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+48:784  0:004    2. bbdf1fa0: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+48:788  0:004    3. bbdf1fe8: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054 -> SSDT-0-Ther_Rvp.aml
+48:793  0:004    4. bbdf2bd8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-1-Cpu0Ist.aml
+48:798  0:004    5. bbdf3118: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932 -> SSDT-2-CpuSsdt.aml (Found hidden SSDT 4 pcs)
+48:802  0:004        * 3105007000: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+48:802  0:000        * 3150214680: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D0 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+48:806  0:004        * 3150216216: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B0 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+48:811  0:004        * 3150212504: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+48:816  0:004  
+48:816  0:000    6. bbdf3c90: 'SSDT', 'LakeTiny', Rev: 1, Len: 455 -> SSDT-3-LakeTiny.aml
+48:820  0:004    7. bbdf3e58: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+48:825  0:004    8. bbdf3e98: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+48:830  0:004    9. bbdf3ed0: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-4-SataTabl.aml
+48:834  0:004    10. bbdf4240: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390 -> SSDT-5-SaSsdt.aml
+48:840  0:005    11. bbdf9da0: 'DMAR', 'BDW', Rev: 1, Len: 184 -> DMAR.aml
+48:845  0:004    Tables in Rsdt: 12
+48:845  0:000    0. bbde1118: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+48:850  0:004        (Dsdt: BBDE11A0, Facs: BBE1B040)
+48:850  0:000        bbde11a0: 'DSDT', 'A M I', Rev: 2, Len: 68728
+48:851  0:000        bbe1b040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+48:855  0:004    1. bbdf1f28: 'APIC', 'A M I', Rev: 3, Len: 114
+48:855  0:000    2. bbdf1fa0: 'FPDT', 'A M I', Rev: 1, Len: 68
+48:855  0:000    3. bbdf1fe8: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+48:855  0:000    4. bbdf2bd8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+48:855  0:000    5. bbdf3118: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+48:855  0:000    6. bbdf3c90: 'SSDT', 'LakeTiny', Rev: 1, Len: 455
+48:855  0:000    7. bbdf3e58: 'MCFG', 'A M I', Rev: 1, Len: 60
+48:855  0:000    8. bbdf3e98: 'HPET', 'A M I', Rev: 1, Len: 56
+48:855  0:000    9. bbdf3ed0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+48:855  0:000    10. bbdf4240: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+48:855  0:000    11. bbdf9da0: 'DMAR', 'BDW', Rev: 1, Len: 184
+48:855  0:000  Found UEFI Acpi 1.0 RSDP at bbde1000
+48:855  0:000  Printing ACPI tables from RSDP bbde1000 ...
+48:855  0:000   bbde1000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+48:855  0:000    (Xsdt: bbde1080, Rsdt: bbde1028)
+48:855  0:000    bbde1080: 'XSDT', 'A M I', Rev: 1, Len: 132
+48:855  0:000    bbde1028: 'RSDT', 'A M I', Rev: 1, Len: 84
+48:855  0:000    Tables in Xsdt: 12
+48:855  0:000    0. bbdf1e18: 'FACP', 'A M I', Rev: 5, Len: 268
+48:855  0:000        (Dsdt: BBDE11A0, Facs: BBE1B080, XDsdt: bbde11a0, XFacs: 0)
+48:855  0:000        bbde11a0: 'DSDT', 'A M I', Rev: 2, Len: 68728
+48:856  0:000        bbe1b080: 'FACS', Ver: 2, Len: 64
+48:856  0:000    1. bbdf1f28: 'APIC', 'A M I', Rev: 3, Len: 114
+48:856  0:000    2. bbdf1fa0: 'FPDT', 'A M I', Rev: 1, Len: 68
+48:856  0:000    3. bbdf1fe8: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+48:856  0:000    4. bbdf2bd8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+48:856  0:000    5. bbdf3118: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+48:856  0:000    6. bbdf3c90: 'SSDT', 'LakeTiny', Rev: 1, Len: 455
+48:856  0:000    7. bbdf3e58: 'MCFG', 'A M I', Rev: 1, Len: 60
+48:856  0:000    8. bbdf3e98: 'HPET', 'A M I', Rev: 1, Len: 56
+48:856  0:000    9. bbdf3ed0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+48:856  0:000    10. bbdf4240: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+48:856  0:000    11. bbdf9da0: 'DMAR', 'BDW', Rev: 1, Len: 184
+48:856  0:000    Tables in Rsdt: 12
+48:856  0:000    0. bbde1118: 'FACP', 'A M I', Rev: 2, Len: 132
+48:856  0:000        (Dsdt: BBDE11A0, Facs: BBE1B040)
+48:856  0:000        bbde11a0: 'DSDT', 'A M I', Rev: 2, Len: 68728
+48:857  0:000        bbe1b040: 'FACS', Ver: 0, Len: 64
+48:857  0:000    1. bbdf1f28: 'APIC', 'A M I', Rev: 3, Len: 114
+48:857  0:000    2. bbdf1fa0: 'FPDT', 'A M I', Rev: 1, Len: 68
+48:857  0:000    3. bbdf1fe8: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+48:857  0:000    4. bbdf2bd8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+48:857  0:000    5. bbdf3118: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+48:857  0:000    6. bbdf3c90: 'SSDT', 'LakeTiny', Rev: 1, Len: 455
+48:857  0:000    7. bbdf3e58: 'MCFG', 'A M I', Rev: 1, Len: 60
+48:857  0:000    8. bbdf3e98: 'HPET', 'A M I', Rev: 1, Len: 56
+48:857  0:000    9. bbdf3ed0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+48:857  0:000    10. bbdf4240: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+48:857  0:000    11. bbdf9da0: 'DMAR', 'BDW', Rev: 1, Len: 184
