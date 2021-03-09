@@ -1,1 +1,1 @@
-# GA-Z97X-Gaming3-i5-4590
+# GA-Z97X-Gaming3-i5-4690
